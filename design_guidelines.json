@@ -1,0 +1,253 @@
+{
+  "project_name": "Zyeta - Premium India GCC Workplace Design-Build Landing Page Rebuild",
+  "app_type": "landing_page",
+  "design_context": {
+    "target_audience": "Global Real Estate Directors, C-suite Executives, VP/Head of India GCC Centres, Enterprise Facilities Leaders expanding to India (Bengaluru, Hyderabad, Pune, Gurugram NCR, Chennai)",
+    "brand_essence": "India's premier workplace design-build partner for Global Capability Centres (GCCs). Architectural precision, sustainability (LEED/WELL/IGBC), speed to occupancy, and human-centric design.",
+    "emotional_tone": "Architectural authority, refined minimalism, tactile craftsmanship, high-trust enterprise prestige, kinetic spatial elegance"
+  },
+  "typography": {
+    "font_family": "Poppins",
+    "google_font_import": "@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');",
+    "weight_strategy": "Sleeker, ultra-premium Poppins styling. Heavily avoid chunky/overly bold text. Use Light (300) and Regular (400) for large expressive displays and descriptions, Medium (500) for structural accents/buttons, and Semi-Bold (600) strictly for sub-titles or numerical focal points.",
+    "letter_spacing": {
+      "headings": "tracking-tight (-0.02em to -0.03em) for elegant high-end editorial feel",
+      "kickers": "tracking-[0.25em] uppercase text-xs font-mono",
+      "body": "tracking-normal leading-relaxed"
+    },
+    "text_sizes": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-[1.1]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-light tracking-tight text-slate-900 leading-tight",
+      "h3_card": "text-xl sm:text-2xl font-normal text-slate-900",
+      "kicker": "text-xs font-mono uppercase tracking-[0.2em] text-[#80C342] font-semibold",
+      "body_lead": "text-lg sm:text-xl font-light text-slate-600 leading-relaxed",
+      "body_main": "text-sm sm:text-base font-light text-slate-600 leading-relaxed"
+    }
+  },
+  "colors": {
+    "color_archetype": "ORGANIC ARCHITECTURAL LUXURY (Warm Cream Base + Deep Forest Green Surfaces + Electric Lime Accent)",
+    "palette": {
+      "bg_light": "#F9F8F3",
+      "bg_warm_card": "#FFFFFF",
+      "bg_soft_cream": "#F3F2EC",
+      "bg_forest_dark": "#0F2E23",
+      "bg_forest_card": "#153A2E",
+      "accent_green": "#80C342",
+      "accent_lime_bright": "#95D94B",
+      "text_dark_primary": "#111817",
+      "text_dark_secondary": "#4A5552",
+      "text_muted": "#7A8A85",
+      "text_light_primary": "#F9F8F3",
+      "text_light_secondary": "#B0C4BC",
+      "border_light": "rgba(15, 46, 35, 0.08)",
+      "border_dark": "rgba(255, 255, 255, 0.12)"
+    },
+    "tinted_grey_rule": "Never use pure #000000 or neutral grey. All dark surfaces use deep forest green #0F2E23 or rich warm slate."
+  },
+  "layout_and_spacing": {
+    "spacing_philosophy": "Generous spacing philosophy (2x to 3x padding). Minimum py-20 to py-32 per major chapter section.",
+    "grid_modes": {
+      "hero": "Full-viewport landscape height (min-h-[90vh] md:min-h-screen) with multi-layered gradient mask overlay over autoplaying landscape video",
+      "reality_cards": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8",
+      "proof_of_work": "grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12",
+      "awards": "grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8",
+      "numbers": "grid grid-cols-2 md:grid-cols-4 gap-8",
+      "voices": "grid grid-cols-1 md:grid-cols-3 gap-8",
+      "studios": "grid grid-cols-1 lg:grid-cols-12 gap-8",
+      "faq": "max-w-4xl mx-auto space-y-4"
+    }
+  },
+  "hero_video_section_specs": {
+    "concept": "High-impact video header blending cinematic luxury office architecture with sleek Poppins typography. Fully responsive on desktop and mobile.",
+    "video_attributes": {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "playsInline": true,
+      "video_urls": [
+        "https://assets.mixkit.co/videos/preview/mixkit-modern-corporate-offices-14770-large.mp4",
+        "https://assets.mixkit.co/videos/preview/mixkit-young-woman-focused-at-modern-workplace-101540-large.mp4"
+      ],
+      "poster_fallback": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85"
+    },
+    "overlay_gradient": "bg-gradient-to-r from-[#0F2E23]/90 via-[#0F2E23]/65 to-transparent (Dark theme text contrast) or subtle multi-directional vignette (top-to-bottom and left-to-right)",
+    "header_nav": "Sticky glassmorphic navbar with backdrop-blur-md bg-[#F9F8F3]/85 text-[#111817] border-b border-[#0F2E23]/10 z-50",
+    "hero_copy": {
+      "badge": "EST. 2008 · INDIA WORKPLACE STRATEGY & BUILD",
+      "h1": "Your India GCC deserves more than an office.",
+      "subtitle": "Zyeta turns global GCC ambition into high-performing India workplaces — strategy, design, technology, sustainability and build, connected as one.",
+      "cta_primary": "Plan Your India Workplace",
+      "cta_secondary": "Watch the story — 90 sec",
+      "quick_stats": [
+        { "label": "Delivered", "value": "15M+ sq ft" },
+        { "label": "Hubs", "value": "BENGALURU · HYDERABAD · PUNE · NCR · CHENNAI" },
+        { "label": "GCC Projects", "value": "300+ Enterprise Workplaces" }
+      ]
+    }
+  },
+  "faq_section_specs": {
+    "chapter_kicker": "FAQ — GCC ENTRY & EXPANSION IN INDIA",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Key insights for global decision-makers establishing or expanding GCC presence in India.",
+    "questions": [
+      {
+        "id": "faq-1",
+        "question": "What is the typical timeline from space identification to GCC occupancy in India?",
+        "answer": "Our integrated turnkey model reduces conventional delivery timelines by 30-40%. For standard 50,000 to 150,000 sq ft centres, design-build execution ranges between 14 to 20 weeks. Our pre-construction strategy addresses long-lead equipment procurement and Indian statutory approvals concurrently with early architectural design."
+      },
+      {
+        "id": "faq-2",
+        "question": "How does Zyeta harmonize global corporate workplace guidelines with local Indian regulations?",
+        "answer": "We maintain strict compliance with global enterprise standards (fire/life safety, acoustic privacy, IT redundancy, ESG/LEED guidelines) while tailoring engineering execution to regional Indian building codes (NBC), state municipal clearances, landlord fit-out handovers, and local vendor ecosystems across Bengaluru, Hyderabad, Pune, NCR, and Chennai."
+      },
+      {
+        "id": "faq-3",
+        "question": "What sustainability and health certifications can Zyeta deliver for our India GCC?",
+        "answer": "Zyeta is a accredited studio across USGBC LEED (Platinum/Gold), IWBI WELL, and IGBC standards. We embed sustainable material sourcing, high-efficiency HVAC, energy analytics, and biophilic interior planning into every GCC project, delivering up to 35% operational energy cost reduction."
+      },
+      {
+        "id": "faq-4",
+        "question": "How does Zyeta handle hybrid flexibility and rapid headcount expansion for new GCCs?",
+        "answer": "We design modular, reconfigurable spatial layouts with smart occupancy sensors, flexible micro-neighborhoods, and scalable MEP infrastructure. This allows GCCs to adjust density, convert workstation zones to collaborative innovation labs, and scale headcount seamlessly without disruptive re-fits."
+      }
+    ]
+  },
+  "sections_breakdown": [
+    {
+      "chapter": "00",
+      "name": "Header Nav & Landscape Video Hero",
+      "type": "Hero",
+      "details": "Full-viewport responsive landscape video header with Poppins font overlay, clear CTA, quick metrics, and sticky navbar."
+    },
+    {
+      "chapter": "Marquee",
+      "name": "Client Logo Marquee",
+      "type": "Marquee",
+      "details": "Slow editorial sliding ribbon featuring top GCC client logos (Microsoft, Google, Goldman Sachs, NVIDIA, Target, SAP, Intel, Texas Instruments, Wells Fargo, Adobe)."
+    },
+    {
+      "chapter": "01",
+      "name": "The Reality",
+      "type": "Grid 4 Cards",
+      "cards": [
+        "Global standards, local realities",
+        "Speed to occupancy",
+        "The talent equation",
+        "Built for change"
+      ]
+    },
+    {
+      "chapter": "02",
+      "name": "Proof of Work",
+      "type": "Portfolio Showcase",
+      "items": [
+        "Fortune 100 FinTech (Bengaluru · LEED Gold)",
+        "Global Cloud Platform (Hyderabad · WELL Platinum)",
+        "US Financial Services Major (Pune · IGBC Platinum)",
+        "European Semiconductor Leader (Gurugram NCR · LEED Platinum)"
+      ]
+    },
+    {
+      "chapter": "03",
+      "name": "Awards & Sustainability",
+      "type": "Dark Section",
+      "details": "Deep forest green background (#0F2E23), gold/lime accents, listing key accolades (Workplace Project of the Year, Best Sustainable Workplace, etc.) + IWBI, USGBC, IGBC credentials."
+    },
+    {
+      "chapter": "04",
+      "name": "By the Numbers",
+      "type": "Animated Counters",
+      "metrics": [
+        "15M+ sq ft designed & delivered",
+        "300+ GCC workplaces built",
+        "100% on-time handover record",
+        "35% average operational energy savings"
+      ]
+    },
+    {
+      "chapter": "05",
+      "name": "Client Voices",
+      "type": "Video Testimonials",
+      "voices": [
+        "Marcus Vance - Head of Global Real Estate, Fortune 100 FinTech",
+        "Sarah Lin - VP & India GCC Centre Head, Global Cloud Platform",
+        "Elena Rostova - Chief People Officer, European Semiconductor Leader"
+      ]
+    },
+    {
+      "chapter": "06",
+      "name": "India Expertise",
+      "type": "Interactive City Tabs",
+      "cities": ["Bengaluru", "Hyderabad", "Pune", "Gurugram (NCR)", "Chennai"],
+      "details": "Tab switcher displaying studio stats, leadership profiles (Aditi Rao, Rohan Mehta, Kavya Iyer), and regional delivery footprint."
+    },
+    {
+      "chapter": "FAQ",
+      "name": "GCC Frequently Asked Questions",
+      "type": "Accordion",
+      "details": "Interactive Shadcn Accordion with 4 GCC strategy, timeline, compliance, and sustainability Q&As."
+    },
+    {
+      "chapter": "07",
+      "name": "Start Your GCC Journey",
+      "type": "Lead Form Section",
+      "details": "Comprehensive lead capture form submitting to FastAPI backend POST endpoint (/api/status or /api/contact)."
+    },
+    {
+      "chapter": "Footer",
+      "name": "Bottom Sticky CTA & Footer",
+      "type": "Sticky Bar",
+      "details": "Sticky bottom bar appearing on scroll with instant action 'Plan Your India Workplace'."
+    }
+  ],
+  "image_urls": {
+    "hero_fallback": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85",
+    "projects": [
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1706074797611-a02f9ed06439?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1715593949273-09009558300a?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "awards": [
+      "https://images.unsplash.com/photo-1706074793638-da28b90ea8ae?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1646153114001-495dfb56506d?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "voices": [
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1573497019418-b400bb3ab074?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "leadership": [
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&h=800&q=80",
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&h=800&q=80",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&h=800&q=80"
+    ]
+  },
+  "testing_and_data_ids": {
+    "data_testid_rules": "All interactive elements, inputs, submit buttons, navbar links, video controls, tab buttons, and FAQ accordions MUST have data-testid attributes.",
+    "sample_testids": [
+      "header-logo",
+      "nav-plan-workplace-btn",
+      "hero-video-player",
+      "hero-plan-btn",
+      "hero-watch-story-btn",
+      "reality-card-1",
+      "proof-project-card-1",
+      "voices-play-button-1",
+      "studio-tab-bengaluru",
+      "faq-accordion-item-1",
+      "contact-form-submit-btn",
+      "sticky-bottom-cta-btn"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Rebuild the frontend in /app/frontend/src/App.js with modular sub-components or unified clean components.",
+    "Import Poppins Google font with weights 300, 400, 500, 600 in index.html or index.css.",
+    "Ensure video hero supports responsive scaling with object-cover, playsinline, muted, loop, autoplay, and fallback poster.",
+    "Implement the Poppins font with sleek weights (font-light for large expressive headings, font-normal for body, font-medium for buttons).",
+    "Add the FAQ section with the 4 GCC-focused expandable accordion items using Shadcn Accordion component.",
+    "Connect lead form to the FastAPI backend at /api/status or /api/lead with toast notifications.",
+    "Keep all other sections (01 Reality, 02 Proof of Work, 03 Awards dark section, 04 Numbers, 05 Voices, 06 City Studios tab, 07 Contact form) completely aligned with existing site content.",
+    "Verify all interactive buttons, inputs, links, and card items include kebab-case data-testid attributes."
+  ]
+}
