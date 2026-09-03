@@ -40,7 +40,7 @@ const Nav = ({ onNavigate }) => {
     onNavigate(target);
   };
 
-  const light = !scrolled && !open;
+  const light = false;
 
   return (
     <header

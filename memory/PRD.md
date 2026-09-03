@@ -21,7 +21,7 @@ Rebuild https://zyeta-minimal.preview.emergentagent.com/ with: (1) new hero head
 - Preserve all original sections/content (01–07 chapters)
 
 ## Implemented (2026-09-03)
-- Full-page rebuild: Nav (glass on scroll, mobile menu), video Hero (masked line-by-line reveal, parallax, zoom-on-load), client logo marquee, 01 Reality cards, 02 Proof of Work grid, 03 Awards (dark forest), 04 animated counters, 05 Voices cards, 06 India Studios city tab switcher, FAQ accordion (4 GCC questions), 07 lead form, Footer, sticky bottom CTA
+- Full-page rebuild: Nav (glass on scroll, mobile menu), split-layout Hero (text left + framed horizontal video right with offset border frame, chips, masked line-by-line reveal, parallax, zoom-on-load — revised 2026-09-03 from full-width video per user feedback), client logo marquee, 01 Reality cards, 02 Proof of Work grid, 03 Awards (dark forest), 04 animated counters, 05 Voices cards, 06 India Studios city tab switcher, FAQ accordion (4 GCC questions), 07 lead form, Footer, sticky bottom CTA
 - Backend: POST /api/leads + GET /api/leads (MongoDB persisted), kept /api/status
 - data-testid coverage on all interactive elements
 
